@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Digital Marketing Analytics",
+        "by": "Coursea",
+        "image": "./certification/uiux-skillsacademy.png",
+        "category":"programming",
+        "links": {
+            "credentials": "https://coursera.org/share/b5ae1642933c1e082126338a0c2be054"
+        }
+    }, {
+        "name": "Certificate 2nd of School",
+        "by": "Preah Monivong High School",
+        "image": "./certification/web-dicoding.png",
+        "category":"programming",
+        "links": {
+            "credentials": "https://www.instagram.com/chek_sereyodam/#"
+        }
+    }, {
+        "name": "Corporate Strategy",
+        "by": "Coursera",
+        "image": "./certification/js-dicoding.png",
+        "category":"programming",
+        "links": {
+            "credentials": "https://coursera.org/share/4397b9a03ec96dc0ffac043672b1a1cf"
+        }
+    }, {
+        "name": "Programming with JavaScript",
+        "by": "Coursera",
+        "image": "./certification/fe-dicoding.png",
+        "category":"programming",
+        "links": {
+            "credentials": "https://coursera.org/share/02130f7360ab9663fad977ab56497985"
+        }
+    }, {
+        "name": "AR For Web Using JavaScript",
+        "by": "Coursera",
+        "image": "./certification/be-dicoding.png",
+        "category":"programming",
+        "links": {
+            "credentials": "https://coursera.org/share/5483cdd790a0a9640af0a36cbaac5631"
+        }
+    }
+]

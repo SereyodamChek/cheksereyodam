@@ -1,0 +1,49 @@
+[
+    {
+        "title": "Form Register",
+        "tech": "HTML & CSS & JavaScript",
+        "image": "./assets/img/project/form.png",
+        "desc":"This is my first project. I Learn in freecodecamp to make form register using HTML & CSS",
+        "links": {
+            "demo": "https://www.instagram.com/chek_sereyodam/#",
+            "code": "https://www.instagram.com/chek_sereyodam/#"
+        }
+    },
+    {
+        "title": "Relationship Chart Database Using VB.NET Frameworks",
+        "tech": "VB.NET",
+        "image": "./assets/img/project/proyek web dasar.png",
+        "desc":"This is my for dicoding submission.",
+        "links": {
+            "demo": "https://www.instagram.com/chek_sereyodam/#",
+            "code": "https://www.instagram.com/chek_sereyodam/#"
+        }
+    },{
+        "title": "Product Management Using VB.NET",
+        "tech": "VB.NET & Framework",
+        "image": "./assets/img/project/bookshelf app.png",
+        "desc":"This is my project in class.",
+        "links": {
+            "demo": "https://www.instagram.com/chek_sereyodam/#",
+            "code": "https://www.instagram.com/chek_sereyodam/#"
+        }
+    },{
+        "title": "Company Profile",
+        "tech": "HTML, CSS, JS & BOOTSTRAP",
+        "image": "./assets/img/project/proyek freelance.png",
+        "desc": "This is my project for company profile",
+        "links": {
+            "demo": "https://www.instagram.com/chek_sereyodam/#",
+            "code": "https://www.instagram.com/chek_sereyodam/#"
+        }
+    },{
+        "title": "Portfolio Website",
+        "tech": "HTML, CSS, JS & BOOTSTRAP",
+        "image": "./assets/img/project/portfolio.png",
+        "desc": "This is my project for personal portfolio.",
+        "links": {
+            "demo": "https://www.instagram.com/chek_sereyodam/#",
+            "code": "https://www.instagram.com/chek_sereyodam/#/"
+        }
+    }
+]
