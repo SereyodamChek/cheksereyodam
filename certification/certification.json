@@ -7,13 +7,13 @@
         "links": {
             "credentials": "https://coursera.org/share/b5ae1642933c1e082126338a0c2be054"
         }
-    }, {
-        "name": "Certificate 2nd of School",
-        "by": "Preah Monivong High School",
-        "image": "./certification/web-dicoding.png",
+    },{
+        "name": "Design thinking",
+        "by": "Coursea",
+        "image": "./certification/Coursera U9SVS5ZG6UWG.jpg",
         "category":"programming",
         "links": {
-            "credentials": "https://www.instagram.com/chek_sereyodam/#"
+            "credentials": "https://www.coursera.org/account/accomplishments/verify/U9SVS5ZG6UWG"
         }
     }, {
         "name": "Corporate Strategy",
@@ -32,12 +32,28 @@
             "credentials": "https://coursera.org/share/02130f7360ab9663fad977ab56497985"
         }
     }, {
-        "name": "AR For Web Using JavaScript",
-        "by": "Coursera",
-        "image": "./certification/be-dicoding.png",
+        "name": "Stress Management",
+        "by": "Lectera",
+        "image": "./certification/certificate.jpg",
         "category":"programming",
         "links": {
-            "credentials": "https://coursera.org/share/5483cdd790a0a9640af0a36cbaac5631"
+            "credentials": "https://lectera.com/en/lk"
+        }
+    }, {
+        "name": "Networking",
+        "by": "Coursea",
+        "image": "./certification/Coursera21I9YW26W5E5.jpg",
+        "category":"programming",
+        "links": {
+            "credentials": ""
+        }
+    }, {
+        "name": "Flutter",
+        "by": "Coursea",
+        "image": "./certification/Coursera TU3URLBIP777.jpg",
+        "category":"programming",
+        "links": {
+            "credentials": ""
         }
     }
 ]

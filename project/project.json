@@ -1,12 +1,12 @@
 [
     {
-        "title": "Form Register",
+        "title": "School Management Project",
         "tech": "HTML & CSS & JavaScript",
         "image": "./assets/img/project/form.png",
         "desc":"This is my first project. I Learn in freecodecamp to make form register using HTML & CSS",
         "links": {
             "demo": "https://www.instagram.com/chek_sereyodam/#",
-            "code": "https://www.instagram.com/chek_sereyodam/#"
+            "code": "https://github.com/SereyodamChek"
         }
     },
     {
@@ -16,7 +16,7 @@
         "desc":"This is my for dicoding submission.",
         "links": {
             "demo": "https://www.instagram.com/chek_sereyodam/#",
-            "code": "https://www.instagram.com/chek_sereyodam/#"
+            "code": "https://github.com/SereyodamChek"
         }
     },{
         "title": "Product Management Using VB.NET",
@@ -25,7 +25,7 @@
         "desc":"This is my project in class.",
         "links": {
             "demo": "https://www.instagram.com/chek_sereyodam/#",
-            "code": "https://www.instagram.com/chek_sereyodam/#"
+            "code": "https://github.com/SereyodamChek"
         }
     },{
         "title": "Company Profile",
@@ -33,8 +33,8 @@
         "image": "./assets/img/project/proyek freelance.png",
         "desc": "This is my project for company profile",
         "links": {
-            "demo": "https://www.instagram.com/chek_sereyodam/#",
-            "code": "https://www.instagram.com/chek_sereyodam/#"
+            "demo": "https://sereyodamchek.vercel.app/",
+            "code": "https://github.com/SereyodamChek"
         }
     },{
         "title": "Portfolio Website",
@@ -42,8 +42,8 @@
         "image": "./assets/img/project/portfolio.png",
         "desc": "This is my project for personal portfolio.",
         "links": {
-            "demo": "https://www.instagram.com/chek_sereyodam/#",
-            "code": "https://www.instagram.com/chek_sereyodam/#/"
+            "demo": "https://cheksereyodam.vercel.app/",
+            "code": "https://github.com/SereyodamChek"
         }
     }
 ]
