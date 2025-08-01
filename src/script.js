@@ -54,7 +54,7 @@ function showCertification(certification) {
                 </p>
                 <div class="credentials">
                     <a class="btn" target="_blank" href="${certification.links.credentials}">
-                        ចូលមើល
+                        View Credentials
                         <i class="fas fa-angle-right"></i>
                     </a>
                 </div>
@@ -132,25 +132,25 @@ loadmore.addEventListener("click", () => {
 
 AOS.init();
 
-document.addEventListener("contextmenu", function(e){
+document.addEventListener("contextmenu", function (e) {
   e.preventDefault();
 });
 
-document.onkeydown = function (e){
+document.onkeydown = function (e) {
   if (event) {
-      return false;
+    return false;
   }
-  if (e.ctrlKey && e.shiftKey && e.keyCode == "I".charCodeAt(0)){
-      return false;
+  if (e.ctrlKey && e.shiftKey && e.keyCode == "I".charCodeAt(0)) {
+    return false;
   }
-  if (e.ctrlKey && e.shiftKey && e.keyCode == "C".charCodeAt(0)){
-      return false;
+  if (e.ctrlKey && e.shiftKey && e.keyCode == "C".charCodeAt(0)) {
+    return false;
   }
-  if (e.ctrlKey && e.shiftKey && e.keyCode == "J".charCodeAt(0)){
-      return false;
+  if (e.ctrlKey && e.shiftKey && e.keyCode == "J".charCodeAt(0)) {
+    return false;
   }
-  if (e.ctrlKey && e.keyCode == "I".charCodeAt(0)){
-      return false;
+  if (e.ctrlKey && e.keyCode == "I".charCodeAt(0)) {
+    return false;
   }
 }
 
