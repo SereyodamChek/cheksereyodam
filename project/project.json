@@ -3,7 +3,7 @@
         "title": "School Management Project",
         "tech": "HTML & CSS & JavaScript",
         "image": "./assets/img/project/form.png",
-        "desc":"This is my first project. I Learn in freecodecamp to make form register using HTML & CSS",
+        "desc": "This is my first project. I Learn in freecodecamp to make form register using HTML & CSS",
         "links": {
             "demo": "https://www.instagram.com/chek_sereyodam/#",
             "code": "https://github.com/SereyodamChek"
@@ -13,30 +13,33 @@
         "title": "Relationship Chart Database Using VB.NET Frameworks",
         "tech": "VB.NET",
         "image": "./assets/img/project/proyek web dasar.png",
-        "desc":"This is my for dicoding submission.",
+        "desc": "This is my for dicoding submission.",
         "links": {
             "demo": "https://www.instagram.com/chek_sereyodam/#",
             "code": "https://github.com/SereyodamChek"
         }
-    },{
-        "title": "Product Management Using VB.NET",
-        "tech": "VB.NET & Framework",
+    },
+    {
+        "title": "Design ABA Poster",
+        "tech": "Photoshop 2024",
         "image": "./assets/img/project/bookshelf app.png",
-        "desc":"This is my project in class.",
+        "desc": "This is my project in class.",
         "links": {
             "demo": "https://www.instagram.com/chek_sereyodam/#",
             "code": "https://github.com/SereyodamChek"
         }
-    },{
-        "title": "Company Profile",
-        "tech": "HTML, CSS, JS & BOOTSTRAP",
+    },
+    {
+        "title": "Award Certificate Top student 2025 ",
+        "tech": "IT",
         "image": "./assets/img/project/proyek freelance.png",
-        "desc": "This is my project for company profile",
+        "desc": "National Meanchey University of Cambodia",
         "links": {
             "demo": "https://sereyodamchek.vercel.app/",
             "code": "https://github.com/SereyodamChek"
         }
-    },{
+    },
+    {
         "title": "Portfolio Website",
         "tech": "HTML, CSS, JS & BOOTSTRAP",
         "image": "./assets/img/project/portfolio.png",
