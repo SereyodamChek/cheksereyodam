@@ -4,378 +4,442 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
-    <link rel="stylesheet" href="src/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link id="favicon" rel="shortcut icon" href="./assets/img/sdcicon.svg" />
+    <meta name="keywords"
+        content="Sereyodam Chek, portfolio, network administrator, front-end developer, UI/UX designer, Cambodia" />
+    <meta name="description"
+        content="Sereyodam Chek — a premium portfolio showcasing network administration, front-end development, UI/UX design, and content creation." />
+    <meta name="theme-color" content="#0b0b17" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bayon&family=Dangrek&family=Koulen&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
         rel="stylesheet">
-    <title>Sereyodam Chek</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+    <link rel="stylesheet" href="src/style.css" />
+
+    <link id="favicon" rel="shortcut icon" href="./assets/img/sdcicon.svg" />
+    <title>Sereyodam Chek — Portfolio</title>
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WK7VVK1JCB"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-WK7VVK1JCB');
     </script>
-    <style>
-        body {
-            font-family: 'Bayon', sans-serif;
-        }
-
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-family: 'Koulen', sans-serif;
-        }
-
-        p {
-            font-family: 'Dangrek', sans-serif;
-        }
-
-        @media (max-width: 992px) {
-            .navbar-brand {
-                font-size: 2rem;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .navbar-brand {
-                font-size: 1.5rem;
-            }
-        }
-
-        @media (max-width: 576px) {
-            .navbar-brand {
-                font-size: 1.25rem;
-            }
-        }
-    </style>
 </head>
 
 <body class="click-trigger">
-    <nav class="navbar d-flex w-100 position-fixed navbar-expand-lg navbar-light bg-transparent">
+
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <svg class="preloader-logo" viewBox="0 0 486 486" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M12.5 128.717L210.444 14.4338L408.388 128.717V357.283L210.444 471.566L12.5 357.283V128.717Z"
+                    stroke="url(#pg)" stroke-width="30" fill="none" />
+                <path
+                    d="M207.6 144.4C219.9 144.4 230.65 145.75 239.85 148.45C249.05 151.15 256.45 154 262.05 157C267.65 160 271.05 162 272.25 163L250.65 199.15C249.05 197.95 246.3 196.2 242.4 193.9C238.6 191.6 234.05 189.55 228.75 187.75C223.55 185.95 218.1 185.05 212.4 185.05C204.7 185.05 198.45 186.45 193.65 189.25C188.95 191.95 186.6 196 186.6 201.4C186.6 205.1 187.85 208.45 190.35 211.45C192.95 214.35 196.85 217.15 202.05 219.85C207.35 222.45 214.05 225.3 222.15 228.4C229.55 231.1 236.5 234.3 243 238C249.5 241.7 255.2 246.1 260.1 251.2C265.1 256.2 269.05 262 271.95 268.6C274.85 275.2 276.3 282.7 276.3 291.1C276.3 301.1 274.25 309.8 270.15 317.2C266.05 324.5 260.45 330.55 253.35 335.35C246.35 340.15 238.35 343.7 229.35 346C220.45 348.4 211.2 349.6 201.6 349.6C188 349.6 175.8 348.05 165 344.95C154.3 341.85 145.65 338.5 139.05 334.9C132.45 331.3 128.5 328.9 127.2 327.7L149.55 290.05C150.75 290.95 153.05 292.4 156.45 294.4C159.95 296.4 164.2 298.5 169.2 300.7C174.2 302.8 179.5 304.6 185.1 306.1C190.8 307.6 196.4 308.35 201.9 308.35C211.1 308.35 218 306.6 222.6 303.1C227.2 299.5 229.5 294.8 229.5 289C229.5 284.7 228.05 280.85 225.15 277.45C222.25 274.05 217.9 270.85 212.1 267.85C206.3 264.75 199.05 261.5 190.35 258.1C181.65 254.6 173.5 250.35 165.9 245.35C158.4 240.35 152.3 234.1 147.6 226.6C142.9 219.1 140.55 209.8 140.55 198.7C140.55 187.6 143.65 178 149.85 169.9C156.15 161.7 164.4 155.4 174.6 151C184.9 146.6 195.9 144.4 207.6 144.4Z"
+                    fill="url(#pg)" />
+                <defs>
+                    <linearGradient id="pg" x1="0" y1="0" x2="486" y2="486" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#a78bfa" />
+                        <stop offset="1" stop-color="#ec4899" />
+                    </linearGradient>
+                </defs>
+            </svg>
+            <div class="preloader-bar"><span></span></div>
+            <div class="preloader-text">Loading experience</div>
+        </div>
+    </div>
+
+    <!-- Custom cursor -->
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <div class="cursor-ring" aria-hidden="true"></div>
+
+    <!-- Scroll progress -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Decorative background orbs -->
+    <div class="bg-orbs" aria-hidden="true">
+        <span class="orb orb-1"></span>
+        <span class="orb orb-2"></span>
+        <span class="orb orb-3"></span>
+        <div class="bg-grid"></div>
+        <div class="bg-noise"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top premium-nav">
         <div class="container">
-            <a class="navbar-brand" href="">
-                <svg id="icon-bg" width="40" height="40" viewbox="0 0 486 486" xmlns="http://www.w3.org/2000/svg">
-                    <path id="icon-st"
+            <a class="navbar-brand" href="#home" aria-label="Home">
+                <svg class="brand-mark" width="42" height="42" viewBox="0 0 486 486" xmlns="http://www.w3.org/2000/svg">
+                    <path
                         d="M12.5 128.717L210.444 14.4338L408.388 128.717V357.283L210.444 471.566L12.5 357.283V128.717Z"
-                        stroke="#2D31FA" stroke-width="30" />
-                    <path id="icon-s"
+                        stroke="url(#bg-grad)" stroke-width="30" fill="none" />
+                    <path
                         d="M207.6 144.4C219.9 144.4 230.65 145.75 239.85 148.45C249.05 151.15 256.45 154 262.05 157C267.65 160 271.05 162 272.25 163L250.65 199.15C249.05 197.95 246.3 196.2 242.4 193.9C238.6 191.6 234.05 189.55 228.75 187.75C223.55 185.95 218.1 185.05 212.4 185.05C204.7 185.05 198.45 186.45 193.65 189.25C188.95 191.95 186.6 196 186.6 201.4C186.6 205.1 187.85 208.45 190.35 211.45C192.95 214.35 196.85 217.15 202.05 219.85C207.35 222.45 214.05 225.3 222.15 228.4C229.55 231.1 236.5 234.3 243 238C249.5 241.7 255.2 246.1 260.1 251.2C265.1 256.2 269.05 262 271.95 268.6C274.85 275.2 276.3 282.7 276.3 291.1C276.3 301.1 274.25 309.8 270.15 317.2C266.05 324.5 260.45 330.55 253.35 335.35C246.35 340.15 238.35 343.7 229.35 346C220.45 348.4 211.2 349.6 201.6 349.6C188 349.6 175.8 348.05 165 344.95C154.3 341.85 145.65 338.5 139.05 334.9C132.45 331.3 128.5 328.9 127.2 327.7L149.55 290.05C150.75 290.95 153.05 292.4 156.45 294.4C159.95 296.4 164.2 298.5 169.2 300.7C174.2 302.8 179.5 304.6 185.1 306.1C190.8 307.6 196.4 308.35 201.9 308.35C211.1 308.35 218 306.6 222.6 303.1C227.2 299.5 229.5 294.8 229.5 289C229.5 284.7 228.05 280.85 225.15 277.45C222.25 274.05 217.9 270.85 212.1 267.85C206.3 264.75 199.05 261.5 190.35 258.1C181.65 254.6 173.5 250.35 165.9 245.35C158.4 240.35 152.3 234.1 147.6 226.6C142.9 219.1 140.55 209.8 140.55 198.7C140.55 187.6 143.65 178 149.85 169.9C156.15 161.7 164.4 155.4 174.6 151C184.9 146.6 195.9 144.4 207.6 144.4Z"
-                        fill="#2D31FA" />
+                        fill="url(#bg-grad)" />
+                    <defs>
+                        <linearGradient id="bg-grad" x1="0" y1="0" x2="486" y2="486" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#a78bfa" />
+                            <stop offset="1" stop-color="#ec4899" />
+                        </linearGradient>
+                    </defs>
                 </svg>
+                <span class="brand-text">Sereyodam<span class="brand-dot">.</span></span>
             </a>
 
-            <button class="navbar-toggler position-relative collapsed" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="toggler-icon d-block top-bar"></span>
-                <span class="toggler-icon d-block middle-bar"></span>
-                <span class="toggler-icon d-block bottom-bar"></span>
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="#home">home</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="#about">about</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="#certification">certification</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="#project">project</a>
-                    </li>
+                <ul class="navbar-nav mx-auto nav-links">
+                    <li class="nav-item"><a class="nav-link" href="#home"><span class="num">01</span>Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about"><span class="num">02</span>About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills"><span class="num">03</span>Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certification"><span class="num">04</span>Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#project"><span class="num">05</span>Projects</a></li>
                 </ul>
-                <form>
-                    <a class="btn" href="mailto:strongmandom@gmail.com" rel="noopener noreferrer" target="_blank"
-                        type="button">contact me</a>
-                </form>
+                <a class="btn btn-premium" href="mailto:strongmandom@gmail.com" rel="noopener noreferrer"
+                    target="_blank" data-magnetic>
+                    <span>Contact Me</span>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
             </div>
         </div>
     </nav>
 
-    <section class="home d-flex position-relative align-items-center justify-content-center" id="home">
-        <div id="particles-js" class="position-absolute"></div>
-        <div class="content d-flex flex-wrap flex-row">
-            <div class="intro">
-                <h2>
-                    សួស្តី 👋<br />
-                    I'm
-                    <span>Sereyodam</span>
-                    Chek
-                </h2>
-                <p>I Am
-                    <span class="typing-text"></span>
+    <!-- Hero -->
+    <section class="home" id="home">
+        <div class="hero-grid container">
+            <div class="hero-left">
+                <div class="eyebrow reveal" data-reveal-delay="0">
+                    <span class="dot"></span>
+                    <span>Available for collaboration · Cambodia</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="reveal-line"><span>សួស្តី <span class="wave">👋</span></span></span>
+                    <span class="reveal-line"><span>I'm <em class="grad-text">Sereyodam</em></span></span>
+                    <span class="reveal-line"><span>Chek<span class="accent">.</span></span></span>
+                </h1>
+                <p class="hero-sub reveal" data-reveal-delay="300">
+                    I build refined digital experiences as a
+                    <span class="typing-text"></span><span class="caret">|</span>
                 </p>
-                <a href="#contact" class="btn mt-5 mb-0">
-                    <span>ទាក់ទង</span>
-                    <i class="fas fa-arrow-circle-down"></i>
-                </a>
-                <div class="socials mt-4 position-relative">
-                    <ul class="social-icons my-0 px-0">
-                        <li class="d-inline-block">
-                            <a class="linkedin d-inline-block" aria-label="LinkedIn"
+                <div class="hero-cta reveal" data-reveal-delay="450">
+                    <a href="#about" class="btn btn-premium" data-magnetic>
+                        <span>Explore my work</span>
+                        <i class="fa-solid fa-arrow-down-long"></i>
+                    </a>
+                    <a href="Chek Sereyodam CV.pdf" class="btn btn-ghost" data-magnetic>
+                        <span>Download CV</span>
+                        <i class="fa-solid fa-download"></i>
+                    </a>
+                </div>
+                <div class="socials reveal" data-reveal-delay="600">
+                    <ul class="social-icons">
+                        <li>
+                            <a class="linkedin" aria-label="Facebook"
                                 href="https://web.facebook.com/cheksereyodam" target="_blank">
-                                <i class="fab fa-linkedin"></i>
+                                <i class="fa-brands fa-facebook-f"></i>
                             </a>
                         </li>
-                        <li class="d-inline-block">
-                            <a class="github d-inline-block" aria-label="GitHub" href="https://github.com/SereyodamChek"
+                        <li>
+                            <a class="github" aria-label="GitHub" href="https://github.com/SereyodamChek"
                                 target="_blank">
-                                <i class="fab fa-github"></i>
+                                <i class="fa-brands fa-github"></i>
                             </a>
                         </li>
-                        <li class="d-inline-block">
-                            <a class="instagram d-inline-block" aria-label="Instagram"
-                                href="https://www.instagram.com/chek_sereyodam/#" target="_blank">
-                                <i class="fab fa-instagram"></i>
+                        <li>
+                            <a class="instagram" aria-label="Instagram"
+                                href="https://www.instagram.com/chek_sereyodam/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="image">
-                <img draggable="false" src="assets/img/sdcs-hero.jpg" alt="" />
+            <div class="hero-right">
+                <div class="hero-visual" data-tilt>
+                    <div class="portrait-wrap">
+                        <div class="portrait-ring"></div>
+                        <img class="portrait" draggable="false" src="assets/img/sdcs-hero.jpg" alt="Sereyodam Chek" />
+                        <div class="portrait-glow"></div>
+                    </div>
+                    <div class="floating-card card-exp">
+                        <span class="num">3+</span>
+                        <span class="label">Years of Learning</span>
+                    </div>
+                    <div class="floating-card card-proj">
+                        <span class="num">20+</span>
+                        <span class="label">Projects & Certs</span>
+                    </div>
+                    <div class="floating-card card-avail">
+                        <span class="pulse"></span>
+                        <span class="label">Open to Opportunities</span>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <a class="scroll-indicator" href="#about" aria-label="Scroll to about">
+            <span class="mouse"><span class="wheel"></span></span>
+            <span class="scroll-label">scroll</span>
+        </a>
     </section>
 
-    <section class="about" id="about">
-        <div class="container d-flex flex-column">
-            <div class="title" data-aos="fade-down" data-aos-duration="1000">
-                <h2 class="text-center">
-                    <i class="fas fa-user-alt"></i>
-                    About
-                    <span>Me</span>
-                </h2>
+    <!-- About -->
+    <section class="about section-pad" id="about">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-num">/ 02</span>
+                <h2 class="section-title">About <em class="grad-text">Me</em></h2>
+                <p class="section-lead">A brief introduction — who I am, what I do, and what moves me.</p>
             </div>
-            <div class="content d-flex align-items-center justify-content-center ">
-                <div class="image" data-aos="fade-right" data-aos-duration="1000">
-                    <img src="assets/img/sdcs-profile.jpg" draggable="false" />
+            <div class="about-grid">
+                <div class="about-image" data-reveal data-reveal-delay="100">
+                    <div class="about-image-inner" data-tilt>
+                        <img src="assets/img/sdcs-profile.jpg" draggable="false" alt="Portrait of Sereyodam Chek" />
+                        <div class="about-badge">
+                            <i class="fa-solid fa-code"></i>
+                            <span>Dom</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="intro" data-aos="fade-left" data-aos-duration="1000">
-                    <h3>My name's Dom</h3>
-                    <span class="tagline">Network Administrator</span>
-                    <p>I am 23 years old, born in Battambang Province. I’m currently a 4th-year student majoring in
+                <div class="about-content" data-reveal data-reveal-delay="200">
+                    <h3 class="about-name">My name's <span class="grad-text">Dom</span></h3>
+                    <span class="tagline">Network Administrator · Front-End Enthusiast</span>
+                    <p>
+                        I am 23 years old, born in Battambang Province. I'm currently a 4th-year student majoring in
                         Computer Network Administration and also work at the Fisheries Administration under the Ministry
                         of Agriculture, Forestry and Fisheries. My role supports the sustainable management of
-                        Cambodia’s fisheries sector, which has deepened my interest in environmental conservation and
+                        Cambodia's fisheries sector, which has deepened my interest in environmental conservation and
                         public service. I am passionate about technology and committed to contributing both to digital
                         innovation and the protection of our natural resources.
                     </p>
-                    <div class="hire-me">
-                        <p>
-                            <span>
-                                <i class="fa fa-envelope"></i>
-                                Email :
-                            </span>
-                            strongmandom@gmail.com
-                        </p>
-                        <p>
-                            <span>
-                                <i class="fa fa-map-marked"></i>
-                                Place :
-                            </span>
-                            Battambang, Cambodia
-                        </p>
-                    </div>
-                    <div class="cv-btn d-flex flex-column">
-                        <a href="#skills" class="btn btn-outline-primary">
-                            <span>Skills</span>
-                            <i class="fas fa-arrow-circle-down"></i>
+                    <ul class="info-list">
+                        <li>
+                            <i class="fa-regular fa-envelope"></i>
+                            <div>
+                                <span class="info-label">Email</span>
+                                <a href="mailto:strongmandom@gmail.com">strongmandom@gmail.com</a>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <span class="info-label">Location</span>
+                                <span>Battambang, Cambodia</span>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="about-cta">
+                        <a href="#skills" class="btn btn-premium" data-magnetic>
+                            <span>See my skills</span>
+                            <i class="fa-solid fa-arrow-right-long"></i>
                         </a>
-                        <a href="Chek Sereyodam CV.pdf" class="btn btn-outline-primary">
+                        <a href="Chek Sereyodam CV.pdf" class="btn btn-ghost" data-magnetic>
                             <span>Download CV</span>
-                            <i class="fas fa-download"></i>
+                            <i class="fa-solid fa-download"></i>
                         </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-
-        </div>
-        <div class="skills d-flex flex-column" id="skills">
-            <div class="container d-flex flex-column">
-                <div class="title" data-aos="fade-down" data-aos-duration="1000">
-                    <h2>
-                        <i class="fas fa-laptop-code"></i>
-                        Skills and Certifications
-                    </h2>
-                </div>
-                <div class="box d-flex flex-column align-items-center justify-content-center" data-aos="fade-left"
-                    data-aos-duration="1000">
-                    <h3>Front-End Web
-                        <span>Developer</span>
-                    </h3>
-                    <div class="image">
-                        <img draggable="false" src="assets/img/skills/icons8-html-5.svg" alt="HTML5" />
-                        <img draggable="false" src="assets/img/skills/icons8-css3.svg" alt="CSS3" />
-                        <img draggable="false" src="assets/img/skills/icons8-javascript.svg" alt="JS" />
-                        <img draggable="false" src="assets/img/skills/icons8-node-js.svg" alt="Node-JS" />
-                        <img draggable="false" src="assets/img/skills/icons8-bootstrap.svg" alt="Bootstrap" />
-                        <img draggable="false" src="assets/img/skills/icons8-sublime-text.svg" alt="Sublime-text" />
-                        <img draggable="false" src="assets/img/skills/icons8-visual-studio.svg" alt="VSCode" />
-                        <img draggable="false" src="assets/img/skills/icons8-github.svg" alt="Github" />
-                        <img draggable="false" src="assets/img/skills/vercel.svg" alt="" />
-                        <img draggable="false" src="assets/img/skills/icons8-jquery.svg" alt="" />
-                    </div>
-                </div>
-                <div class="box" data-aos="fade-right" data-aos-duration="1000">
-                    <h3>UI/UX
-                        <span>Designer</span>
-                    </h3>
-                    <div class="image">
-                        <img draggable="false" src="assets/img/skills/icons8-figma.svg" alt="Figma" />
-                        <img draggable="false" src="assets/img/skills/icons8-sketch.svg" alt="Sketch" />
-                    </div>
-                </div>
-                <div class="box" data-aos="fade-left" data-aos-duration="1000">
-                    <h3>Content
-                        <span>Creator</span>
-                    </h3>
-                    <div class="image">
-                        <img draggable="false" src="assets/img/skills/icons8-adobe-premiere-pro.svg"
-                            alt="Premiere Pro" />
-                        <img draggable="false" src="assets/img/skills/icons8-adobe-photoshop.svg" alt="Photoshop" />
-                        <img draggable="false" src="assets/img/skills/icons8-youtube.svg" alt="Youtube" />
-                        <img draggable="false" src="assets/img/skills/icons8-tiktok.svg" alt="Tiktok" />
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="certification d-flex flex-column align-items-center justify-content-center" id="certification">
-        <div class="title" data-aos="fade-down" data-aos-duration="1000">
-            <h2 class="text-center">
-                <i class="fa fa-certificate"></i>
-                Certifications
-            </h2>
+
+    <!-- Skills -->
+    <section class="skills section-pad" id="skills">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-num">/ 03</span>
+                <h2 class="section-title">Tools &amp; <em class="grad-text">Skills</em></h2>
+                <p class="section-lead">A curated stack I work with — web, design, and content.</p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card" data-reveal data-reveal-delay="0" data-tilt>
+                    <header>
+                        <span class="skill-index">01</span>
+                        <h3>Front-End <span class="grad-text">Development</span></h3>
+                        <p>Crafting modern, responsive, accessible interfaces.</p>
+                    </header>
+                    <div class="skill-stack">
+                        <img src="assets/img/skills/icons8-html-5.svg" alt="HTML5" title="HTML5" />
+                        <img src="assets/img/skills/icons8-css3.svg" alt="CSS3" title="CSS3" />
+                        <img src="assets/img/skills/icons8-javascript.svg" alt="JavaScript" title="JavaScript" />
+                        <img src="assets/img/skills/icons8-node-js.svg" alt="Node.js" title="Node.js" />
+                        <img src="assets/img/skills/icons8-bootstrap.svg" alt="Bootstrap" title="Bootstrap" />
+                        <img src="assets/img/skills/icons8-jquery.svg" alt="jQuery" title="jQuery" />
+                        <img src="assets/img/skills/icons8-visual-studio.svg" alt="VS Code" title="VS Code" />
+                        <img src="assets/img/skills/icons8-sublime-text.svg" alt="Sublime" title="Sublime Text" />
+                        <img src="assets/img/skills/icons8-github.svg" alt="GitHub" title="GitHub" />
+                        <img src="assets/img/skills/vercel.svg" alt="Vercel" title="Vercel" />
+                    </div>
+                </article>
+
+                <article class="skill-card" data-reveal data-reveal-delay="120" data-tilt>
+                    <header>
+                        <span class="skill-index">02</span>
+                        <h3>UI / UX <span class="grad-text">Design</span></h3>
+                        <p>Thoughtful interfaces grounded in clarity and rhythm.</p>
+                    </header>
+                    <div class="skill-stack">
+                        <img src="assets/img/skills/icons8-figma.svg" alt="Figma" title="Figma" />
+                        <img src="assets/img/skills/icons8-sketch.svg" alt="Sketch" title="Sketch" />
+                    </div>
+                </article>
+
+                <article class="skill-card" data-reveal data-reveal-delay="240" data-tilt>
+                    <header>
+                        <span class="skill-index">03</span>
+                        <h3>Content <span class="grad-text">Creation</span></h3>
+                        <p>Telling stories through visuals, motion, and sound.</p>
+                    </header>
+                    <div class="skill-stack">
+                        <img src="assets/img/skills/icons8-adobe-premiere-pro.svg" alt="Premiere Pro" title="Adobe Premiere Pro" />
+                        <img src="assets/img/skills/icons8-adobe-photoshop.svg" alt="Photoshop" title="Adobe Photoshop" />
+                        <img src="assets/img/skills/icons8-youtube.svg" alt="YouTube" title="YouTube" />
+                        <img src="assets/img/skills/icons8-tiktok.svg" alt="TikTok" title="TikTok" />
+                    </div>
+                </article>
+            </div>
+
+            <div class="marquee" aria-hidden="true">
+                <div class="marquee-track">
+                    <span>HTML</span><span>·</span><span>CSS</span><span>·</span><span>JavaScript</span><span>·</span>
+                    <span>Bootstrap</span><span>·</span><span>Figma</span><span>·</span><span>UI/UX</span><span>·</span>
+                    <span>Networking</span><span>·</span><span>Photoshop</span><span>·</span><span>Premiere Pro</span><span>·</span>
+                    <span>Content</span><span>·</span>
+                    <span>HTML</span><span>·</span><span>CSS</span><span>·</span><span>JavaScript</span><span>·</span>
+                    <span>Bootstrap</span><span>·</span><span>Figma</span><span>·</span><span>UI/UX</span><span>·</span>
+                    <span>Networking</span><span>·</span><span>Photoshop</span><span>·</span><span>Premiere Pro</span><span>·</span>
+                    <span>Content</span><span>·</span>
+                </div>
+            </div>
         </div>
-        <div class="content d-flex flex-wrap justify-content-center">
+    </section>
+
+    <!-- Certifications -->
+    <section class="certification section-pad" id="certification">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-num">/ 04</span>
+                <h2 class="section-title">Certifications <em class="grad-text">&amp; Achievements</em></h2>
+                <p class="section-lead">Continuous learning — verified and documented.</p>
+            </div>
+            <div class="content cert-grid"></div>
+            <div class="loadmore-btn" data-reveal>
+                <a href="#certification" class="btn btn-ghost" data-magnetic>
+                    <span>View more</span>
+                    <i class="fa-solid fa-plus"></i>
+                </a>
+            </div>
         </div>
-        <div class="loadmore-btn my-5" data-aos="fade-down">
-            <a href="#certifications" class="btn btn-outline-primary">View More
+    </section>
+
+    <!-- Projects -->
+    <section class="project section-pad" id="project">
+        <div class="container">
+            <div class="section-header light" data-reveal>
+                <span class="section-num">/ 05</span>
+                <h2 class="section-title">Featured <em class="grad-text">Projects</em></h2>
+                <p class="section-lead">Highlights from experiences, studies, and personal work.</p>
+            </div>
+            <div class="content project-grid"></div>
+            <div class="viewall-btn" data-reveal>
+                <a href="#project" class="btn btn-ghost light" data-magnetic>
+                    <span>View more</span>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact section-pad">
+        <div class="container contact-inner">
+            <div class="section-header center" data-reveal>
+                <span class="section-num">/ 06</span>
+                <h2 class="section-title big">Let's create something <em class="grad-text">remarkable</em>.</h2>
+                <p class="section-lead">
+                    Although I am not currently looking for new opportunities, my inbox is always open.
+                    Whether you have a question or simply want to say hello, I'll do my best to get back to you.
+                </p>
+            </div>
+            <a class="contact-cta" href="mailto:strongmandom@gmail.com" rel="noopener noreferrer" target="_blank"
+                data-magnetic data-reveal data-reveal-delay="200">
+                <span class="label">Say Hello</span>
+                <span class="email">strongmandom@gmail.com</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
         </div>
     </section>
 
-    <section class="project " id="project">
-        <div class="container d-flex flex-wrap justify-content-center align-items-center">
-            <div class="title" data-aos="fade-down" data-aos-duration="1000">
-                <h2 class="text-center">
-                    <i class="fa fa-laptop-code"></i>
-                    Experience
-                    <span>Projects</span>
-                </h2>
-            </div>
-            <div class="content d-flex flex-row flex-wrap align-items-center justify-content-center"
-                data-aos="fade-down">
-            </div>
-            <div class="viewall-btn d-flex my-5 ">
-                <a href="#project" class=" btn btn-outline-light" data-aos="fade-down">
-                    <span>View More</span>
-                    <i class="fas fa-angle-right"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="contact d-flex flex-column align-items-center justify-content-center text-center">
-        <h2 class="title" data-aos="fade-down" data-aos-duration="1000">Click to
-            <span>Contact Me</span>
-        </h2>
-        <p data-aos="fade-down" data-aos-duration="1000">Although I am not currently
-            looking for new opportunities, my inbox is always open. Whether you have
-            a question or just want to say hello, I will do my best to get back to you!</p>
-        <a data-aos="fade-down" data-aos-duration="1000" class="email-link btn btn-outline-primary"
-            href="mailto:strongmandom@gmail.com" rel="noopener noreferrer" target="_blank">Hello
-            <i class="fa fa-envelope"></i>
-        </a>
-    </section>
-
-    <footer id="footer" class="footer d-flex flex-column">
-        <div class="top d-flex justify-content-sm-around">
-            <div class="content  d-flex flex-column">
-                <img src="assets/img/sdcicon.svg" alt="sdcicon">
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container footer-inner">
+            <div class="foot-col brand-col">
+                <img src="assets/img/sdcicon.svg" alt="Logo">
                 <h3>Sereyodam's Portfolio</h3>
-                <p>Thank you for visiting my personal portfolio website.</p>
+                <p>Thank you for visiting my personal portfolio. Designed and crafted with care.</p>
             </div>
-            <div class="content d-flex flex-column ">
-                <h3>Links</h3>
-                <a href="#home">
-                    <i class="fa fa-arrow-circle-right"></i>
-                    Home</a>
-                <a href="#about">
-                    <i class="fa fa-arrow-circle-right"></i>
-                    About Me</a>
-                <a href="#certification">
-                    <i class="fa fa-arrow-circle-right"></i>
-                    Certifications</a>
-                <a href="#project">
-                    <i class="fa fa-arrow-circle-right"></i>
-                    Projects</a>
+            <div class="foot-col">
+                <h4>Navigation</h4>
+                <a href="#home"><i class="fa-solid fa-chevron-right"></i> Home</a>
+                <a href="#about"><i class="fa-solid fa-chevron-right"></i> About</a>
+                <a href="#skills"><i class="fa-solid fa-chevron-right"></i> Skills</a>
+                <a href="#certification"><i class="fa-solid fa-chevron-right"></i> Certifications</a>
+                <a href="#project"><i class="fa-solid fa-chevron-right"></i> Projects</a>
             </div>
-            <div class="content  d-flex flex-column">
-                <h4>Contact Me</h4>
-                <a href="mailto:strongmandom@gmail.com" rel="noopener noreferrer" target="_blank">
-                    <i class="fas fa-envelope"></i>
-                    strongmandom@gmail.com</a>
-                <a>
-                    <i class="fas fa-map-marked-alt"></i>
-                    Battambang, Cambodia
+            <div class="foot-col">
+                <h4>Get In Touch</h4>
+                <a href="mailto:strongmandom@gmail.com" target="_blank">
+                    <i class="fa-regular fa-envelope"></i> strongmandom@gmail.com
                 </a>
+                <span><i class="fa-solid fa-location-dot"></i> Battambang, Cambodia</span>
                 <div class="socials">
-                    <a href="https://web.facebook.com/cheksereyodam/" class="fab fa-linkedin" aria-label="LinkedIn"
-                        target="_blank"></a>
-                    <a href="https://github.com/SereyodamChek" class="fab fa-github" aria-label="GitHub"
-                        target="_blank"></a>
-                    <a href="https://www.instagram.com/chek_sereyodam/#" class="fab fa-instagram" aria-label="Instagram"
-                        target="_blank"></a>
+                    <a href="https://web.facebook.com/cheksereyodam/" aria-label="Facebook" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://github.com/SereyodamChek" aria-label="GitHub" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/chek_sereyodam/" aria-label="Instagram" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="bottom">
-            <div class="text-center p-4">
-                © 2025 Copyright by:
-                <a class="text-reset fw-bold" ">Sereyodam Chek</a>
-                </div>
+        <div class="foot-bottom">
+            <div class="container d-flex flex-wrap justify-content-between align-items-center">
+                <span>© 2025 <strong>Sereyodam Chek</strong>. All rights reserved.</span>
+                <span class="credit">Crafted with <i class="fa-solid fa-heart"></i> &amp; attention to detail.</span>
             </div>
-        </footer>
+        </div>
+    </footer>
 
-        <!-- cdn script js-->
-        <script
-            src=" https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
-                    integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
-                    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-                        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-                        crossorigin="anonymous"></script>
-                    <script src="https://code.jquery.com/jquery-3.6.3.js"
-                        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
-                        crossorigin="anonymous"></script>
-                    <script src="https://unpkg.com/scrollreveal"></script>
-                    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-                    <!-- main script js -->
-                    <script src="src/particle.js"></script>
-                    <script src="src/app.js"></script>
-                    <script src="src/script.js"></script>
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="src/script.js"></script>
 </body>
 
 </html>
